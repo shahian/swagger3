@@ -78,7 +78,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("v1/test")
     public String getTest(){
-        return "these is a test api for swagger";
+        return "this is a test api for swagger";
     }
 }
 ```
